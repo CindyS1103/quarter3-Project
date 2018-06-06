@@ -51,7 +51,7 @@ console.log('state in adminBlog', this.state)
           <Label for="exampleDate" sm={2}></Label>
           <Col sm={10}>
             <Input type="date" name="date"
-              value={newDate}
+              value={this.props.blog.date}
             onChange={(e)=> this.setState({date: e.target.value})} id="exampleDate" placeholder="Date" />
           </Col>
         </FormGroup>
