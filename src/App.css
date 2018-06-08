@@ -5,11 +5,11 @@
   padding-bottom: 0;
 }
 html, body {
-    max-width: 100%;
+  max-width: 100%;
 }
 .navItems {
   transition: transform .2s;
-   margin: 0 auto;
+  margin: 0 auto;
 }
 .navItems:hover {
   transform: scale(1.3);

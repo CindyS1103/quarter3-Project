@@ -17,7 +17,8 @@ console.log('props in blog', props)
 
     <Media style={{margin:'5em'}}>
      <Media left href="#">
-       <Media className="hover-blog" img src={props.blog.post_img} style={{width:'75px', height:'75px', marginLeft: '10px', marginTop: '20px'}}/>
+       <Media className="hover - blog
+" img src={props.blog.post_img} style={{width:'75px', height:'75px', marginLeft: '10px', marginTop: '20px'}}/>
      </Media>
 
      <Media body style={{paddingLeft: '10px', marginTop:'15px'}}>

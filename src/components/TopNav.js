@@ -40,7 +40,8 @@ class TopNav extends Component {
 
         <Navbar color="secondary" light expand="md" style={navStyles}>
           <NavbarBrand>
-            <div className="logo-hover"><a href='/'><img src={theImage} style={{height:'100px', width:'300px', objectFit:'cover',marginLeft:'1.5em'}}/></a></div>
+            <div className = 'logo-hover'
+><a href='/'><img src={theImage} style={{height:'100px', width:'300px', objectFit:'cover',marginLeft:'1.5em'}}/></a></div>
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>

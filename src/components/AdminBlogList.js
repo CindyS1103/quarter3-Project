@@ -11,7 +11,8 @@ class AdminBlogList extends React.Component {
     return (
       <div className='blog-list'>
           <div style={{marginTop: '20px', marginRight:'50%', marginLeft:'8em', marginBottom:'10px', fontSize:'20px', color:'#1476A8'}}><strong>View Blog Posts</strong></div>
-            <hr className="my-4" />
+            ;<hr className="my-4" />
+
         {listOfBlogs}
 
 
