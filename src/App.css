@@ -9,12 +9,31 @@
 
 html, body {
     max-width: 100%;
-    position: relative;
+
 }
 
+.admin {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-left: 150px;
+  width: 60%;
+
+  padding-right: 70px;
+}
+.company:hover {
+  font-weight: bold;
+}
 .container{
   height:7em;
 
+}
+.navItems:hover {
+  background-color: #C0C0C0;
+}
+.hover:hover {
+  background-color: #C0C0C0;
 }
 
 .footer-container{
@@ -51,7 +70,26 @@ div.desc {
     padding: 0 6px;
     float: left;
     width: 24.99999%;
-    margin: 5em;
+    margin-left: 2em;
+    height:400px;
+    width: 400px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+
+}
+.responsive + .responsive {
+  margin-top: 20px;
+}
+.photobomb{
+  height:100%;
+  width:100%;
+}
+.photo-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 
@@ -72,4 +110,13 @@ div.desc {
     content: "";
     display: table;
     clear: both;
+}
+
+.dashboard-text{
+  margin: 0 auto;
+  padding-top:50px;
+  text-align:left;
+  width: 80%;
+  margin-bottom: 10px;
+  font-size: 15px;
 }

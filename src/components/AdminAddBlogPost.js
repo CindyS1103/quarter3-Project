@@ -16,7 +16,7 @@ state = {
   post_body: ''
 }
 handleSubmit = (e) => {
-  e.preventDefault()
+  
   this.props.addBlog(this.state)
 }
 
@@ -24,8 +24,10 @@ handleSubmit = (e) => {
 console.log('state in adminBlogPost', this.state)
   return (
     <div>
+    <div style={{marginTop: '20px', marginRight:'50%', marginLeft:'8em', marginBottom:'10px', fontSize:'20px',width:'8em', color:'#1476A8',padding:'.5em'}}><strong>Add Blog Post</strong></div>
+    <hr className="my-4" />
+    <Form style={{marginTop: '50px', marginRight:'50%', marginLeft:'1em', marginBottom:'50px', fontSize:'20px', color:'#1476A8'}} onSubmit={this.handleSubmit}>
 
-    <Form style={{textAlign:'center', marginTop: '50px', marginRight:'30%', marginLeft:'20%', marginBottom:'100px', fontSize:'20px', color:'#1476A8'}} onSubmit={this.handleSubmit}><strong>Add Blog Post</strong>
 
       <FormGroup row style={{marginTop:'20px'}}>
         <Label for="exampleTitle" sm={2}></Label>
@@ -55,7 +57,7 @@ console.log('state in adminBlogPost', this.state)
             <Input type="textarea" name="text" value={this.state.post_body} onChange={(e)=> this.setState({post_body: e.target.value})} id="exampleText" placeholder="Content" />
           </Col>
         </FormGroup>
-        <Button style={{marginTop: '20px', backgroundColor:'#1476AC', color:'white', fontSize:'15px', width:'150px', height:'50px'}} >Submit</Button>
+        <Button  style={{marginLeft:'12em', marginBottom:'10px', marginRight:'430px', color:'#1476A8'}} >Submit</Button>
         </Form>
     </div>
   )

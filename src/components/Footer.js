@@ -13,16 +13,18 @@ import {
   DropdownItem,
   Row,
   Col } from 'reactstrap';
-  import theImage from '../images/Screen Shot 2018-06-05 at 9.27.25 AM.png'
+  import theImage from '../images/sos-communications.png'
 
 const footerStyles = {
   width: '100%',
   height: '100px',
-  marginLeft: '20px'
+  marginLeft: '20px',
+  backgroundColor: '#EEEEEE'
 }
 const bottomRow = {
   textAlign: 'center',
-  fontSize: '1.2em'
+  fontSize: '1.2em',
+  backgroundColor: '#EEEEEE'
 }
 
 
@@ -35,8 +37,8 @@ class Footer extends Component {
       return (
 
         <div className="footer-container" >
-        <div class="Container" color="info" light expand="md" style={footerStyles}>
-        <Row>
+        <div class="Container"  expand="md" style={footerStyles}>
+        <Row style={{backgroundColor:'#EEEEEE'}}>
           <Col xs="6" sm="4" style={{marginTop: '20px', fontSize: '1.2em'}}><strong>CONTACT US</strong>
             <hr className="my-4" />
         <Row>
@@ -55,7 +57,7 @@ class Footer extends Component {
           <Col xs="6" sm="6" style={{fontSize: '.9em'}}>Email: soscommco@aol.com</Col>
         </Row>
           </Col>
-        <Col xs="6" sm="4" style={{marginTop: '20px', fontSize: '1.2em'}}><strong>RECENT BLOG POSTS</strong>
+        <Col xs="6" sm="4" style={{marginTop: '20px', fontSize: '1.2em',marginRigt:'1em'}}><strong>RECENT BLOG POSTS</strong>
             <hr className="my-4" />
             <Row>
               <Col xs="6" sm="8"><a href="/blog">Importance of Cleaning Fiber Optic Cables</a></Col>
@@ -67,11 +69,16 @@ class Footer extends Component {
               <Col xs="6" sm="8"><a href="/blog">How Does Fusion Splicing Work</a></Col>
             </Row>
         </Col>
+
+
+
         <Col xs="6" sm="4" style={{marginTop: '20px', fontSize: '1.2em'}}>
 
-            <Row>
+            <Row >
               <Col xs="6" sm="8">
-              <div> </div>
+              <div >
+              <a href='/Login'><img style={{height:'13vh', float:'right',marginTop:'2em',marginleft:'3em'}} src={theImage}/></a>
+               </div>
               </Col>
             </Row>
             </Col>
@@ -83,6 +90,7 @@ class Footer extends Component {
       </Row>
         </div>
         </div>
+
 
       );
     }

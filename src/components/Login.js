@@ -12,7 +12,7 @@ class Login extends Component {
 
     return (
       <div>
-      <Form style={{textAlign: 'center', width: '400px', margin: 'auto', marginTop:'50px', marginBottom: '75px', paddingTop: '10px', fontSize: '1.5em', color: '#1481B1'}}>Admin Login
+      <Form style={{textAlign: 'center', width: '400px', margin: 'auto', marginTop:'100px', marginBottom: '75px', paddingTop: '10px', fontSize: '1.5em', color: '#1481B1'}}><strong>Admin Login</strong>
         <FormGroup>
           <Label for="exampleEmail"></Label>
           <Input type="email" name="email" id="exampleEmail" placeholder="Email" />
@@ -23,6 +23,7 @@ class Login extends Component {
         </FormGroup>
          <Button style={{color:'#1481B1'}} onClick={() => this.props.history.push('/admin')}>Submit</Button>
         </Form>
+        <div style={{marginBottom:'20em'}}></div>
     </div>
   )
 }

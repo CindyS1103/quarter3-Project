@@ -64,11 +64,12 @@ export const deleteBlog = (id) => {
 
 }
 }
-export const updateBlog = (blog) => {
+export const updateBlog = (blog,id) => {
 
   return async dispatch => {
     try{
-      let blogUpdate = await axios.patch(`http://localhost:8000/api/blog/${blog.id}`, blog)
+      let blogUpdate = await axios.patch(`http://localhost:8000/api/blog/${id}`, blog)
+      console.log(blog)
       dispatch({
         type: UPDATE_BLOG_SUCCESS,
         payload: blogUpdate.data
