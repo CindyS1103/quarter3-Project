@@ -50,7 +50,7 @@ const About = () => {
       <p>At <strong>SOS Communications</strong>, structured network cabling systems are top priority. Our company guarantees neat and organized network cabling solutions to meet your specific technological needs. We have worked with many different companies with different needs in order to customized wiring solutions to suit all business needs.</p>
 
       <Media>
-      <Media img src={theImage} style={{maxHeight:'45vh',objectFit:'cover', paddingBottom:'0', marginLeft: '20px', marginTop: '30px', width:'90%', marginBottom:'10em', borderRadius: '8px', border:'1px solid #ddd'}}/>
+      <Media img className="aboutImage" src={theImage} style={{maxHeight:'50vh',objectFit:'cover', paddingBottom:'0', marginLeft: '20px', marginTop: '30px', width:'90%', marginBottom:'10em'}}/>
       </Media>
       </Col>
       </Row>

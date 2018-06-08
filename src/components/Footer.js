@@ -77,7 +77,7 @@ class Footer extends Component {
             <Row >
               <Col xs="6" sm="8">
               <div >
-              <a href='/Login'><img style={{height:'13vh', float:'right',marginTop:'2em',marginleft:'3em'}} src={theImage}/></a>
+              <a href='/Login'><img className="logo-hover" style={{height:'13vh', float:'right',marginTop:'2em',marginleft:'3em'}} src={theImage}/></a>
                </div>
               </Col>
             </Row>

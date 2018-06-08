@@ -26,124 +26,53 @@ class Photos extends Component{
     return (
       <div className="photo-div" >
       <div class="responsive" style={{marginTop:'20px'}}>
-
-
       <img src={theImage} className="photobomb" alt="Trolltunga Norway"  />
-
-
-
 </div>
 <div class="responsive"  >
-
-
       <img src={theImage1} className="photobomb" alt="Forest"  />
-
-
-
 </div>
 <div class="responsive"  >
-
-
       <img src={theImage14} className="photobomb" alt="Forest"  />
-
-
-
 </div>
 <div class="responsive">
-
-
       <img src={theImage2} className="photobomb" alt="Forest"  />
-
-
-
 </div>
 <div class="responsive">
-
-
       <img src={theImage12} className="photobomb" alt="Forest"  />
-
-
-
 </div>
 <div class="responsive">
-
-
       <img src={theImage11} className="photobomb" alt="Forest"  />
-
-
-
 </div>
-
 
 <div class="responsive">
-
-
       <img src={theImage3} className="photobomb" alt="Forest"  />
-
-
-
 </div>
 
 <div class="responsive"  >
-
       <img src={theImage4} className="photobomb" alt="Northern Lights"  />
-
-
-
 </div>
 <div class="responsive"  >
-
       <img src={theImage5} className="photobomb" alt="Forest"  />
-
-
-
 </div>
 <div class="responsive"  >
-
       <img src={theImage6} className="photobomb" alt="Forest"  />
-
-
-
 </div>
 <div class="responsive"  >
-
-
       <img src={theImage7} className="photobomb" alt="Forest"  />
-
-
-
 </div>
 <div class="responsive"  >
-
-
       <img src={theImage8} className="photobomb" alt="Forest"  />
-
-
-
 </div>
 <div class="responsive"  >
-
-
       <img src={theImage9} className="photobomb" alt="Forest" />
-
-
-
 </div>
 <div class="responsive"  >
-
-      <img src={theImage10} className="photobomb" alt="Forest"  />
-
-
+  <img src={theImage10} className="photobomb" alt="Forest"  />
 
 </div>
 
 <div class="responsive"  >
-
-
       <img src={theImage14} className="photobomb" alt="Mountains"  />
-
-
-
 </div>
 
 <div style={{padding:'6px'}}>

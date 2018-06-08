@@ -40,7 +40,7 @@ class TopNav extends Component {
 
         <Navbar color="secondary" light expand="md" style={navStyles}>
           <NavbarBrand>
-            <div><a href='/'><img src={theImage} style={{height:'100px', width:'300px', objectFit:'cover',marginLeft:'1.5em'}}/></a></div>
+            <div className="logo-hover"><a href='/'><img src={theImage} style={{height:'100px', width:'300px', objectFit:'cover',marginLeft:'1.5em'}}/></a></div>
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
@@ -54,13 +54,15 @@ class TopNav extends Component {
               <NavItem className="navItems"style={{marginRight:'5em'}}>
                 <NavLink href="/photos" style={{color: '#1481B1', fontSize: '1.2em'}}><strong>Photo Gallery</strong></NavLink>
               </NavItem>
-              <NavItem className="navItems"style={{marginRight:'5em'}}>
+              <NavItem className="navItems" style={{marginRight:'5em'
+            }}>
+                <NavLink href="/blog" style={{color: '#1481B1', fontSize: '1.2em'}}><strong>Blog</strong></NavLink>
+              </NavItem>
+              <NavItem className="navItems">
                 <NavLink href="/contact" style={{color: '#1481B1', fontSize: '1.2em'}}><strong>Contact</strong></NavLink>
               </NavItem>
 
-              <NavItem className="navItems">
-                <NavLink href="/blog" style={{color: '#1481B1', fontSize: '1.2em'}}><strong>Blog</strong></NavLink>
-              </NavItem>
+
 
             </Nav>
           </Collapse>

@@ -103,14 +103,14 @@ toggle() {
       <h4><strong>Dedicated to providing high-quality, affordable, customized network cabling solutions for your business!</strong></h4>
 
       <Media>
-      <Media img src={theImage} style={{maxHeight:'50vh',objectFit:'cover', padding:'1em', marginLeft: '30px',marginRight:'30px', marginTop: '30px', width:'70%', marginBottom:'5em'}}/>
+      <Media className="hover-contact" img src={theImage} style={{maxHeight:'50vh',objectFit:'cover', padding:'1em', marginLeft: '30px',marginRight:'30px', marginTop: '30px', width:'70%', marginBottom:'5em'}}/>
       </Media>
       <h4 style={{color:'#1476AC'}}><span class="company">Contact us today!</span> </h4>
       <h5><strong>SOS Communications</strong> is committed to establishing solid customer relationships through our dedication to exceeding expectations and providing outstanding service.</h5>
 
-      <img style={{verticalAlign:'middle',height:'5em',marginBottom:'2.5em',marginTop:'1em'}} src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDVP_t2jjdEEYYtHXKsPr6ScMXuae5D5rx-d8K3b7uacUDROh'/>
+      <img className="hover-contact" style={{verticalAlign:'middle',height:'5em',marginBottom:'2.5em',marginTop:'1em'}} src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDVP_t2jjdEEYYtHXKsPr6ScMXuae5D5rx-d8K3b7uacUDROh'/>
       <div style={{verticalAlign:'middle', display:'inline', ontSize:'20px', color:'#1476AC',marginBottom:'5em',fontSize:'20px'}}>
-    <span class="company"> 480.968.4225 </span>
+    <span  class="company"> 480.968.4225 </span>
 
 
       </div>
